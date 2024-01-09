@@ -1,0 +1,107 @@
+body {
+    line-height: normal !important;
+    font-size: 14px;
+    font-family: gmv_din_pro;
+}
+#PageContainer {
+    overflow: hidden;
+}
+.main-content {
+    display: block;
+}
+#page-wrapper {
+    padding: -34px 0px;
+}
+.wrapper {
+    padding: 0 30px;
+}
+.text-left {
+    text-align: left !important;
+}
+.grid__item {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    vertical-align: top;
+}
+#page-wrapper.customer-login .width-80 {
+    margin: 0 auto;
+    width: 80%;
+}
+.form-success {
+    color: #56ad6a;
+    background-color: #ecfef0;
+    border-color: #56ad6a;
+}
+.form-vertical {
+    margin-bottom: 15px;
+}
+.form-vertical input{
+    display: block;
+    margin-bottom: 10px;
+}
+input {
+    border: 1px solid #e7e7e7;
+    max-width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+input, textarea, button, select {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: gmv_din_pro;
+}
+#page-wrapper h1 {
+    font-style: normal;
+    font-size: 32px;
+    line-height: 54px;
+    color: #000;
+}
+#page-wrapper.customer-login .desc_login {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 35px;
+}
+#page-wrapper.customer-login label {
+    color: #8A8A8F;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+}
+input.input-full{
+    width: 100%;
+}
+.text-right {
+    text-align: right !important;
+}
+p {
+    margin: 0 0 15px 0;
+}
+#page-wrapper.customer-login a {
+    color: #007AFF;
+}
+a{
+    text-decoration: none;
+    background: transparent;
+}
+input.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #070707;
+    color: #fff;
+    text-transform: uppercase !important;
+}
+h2{
+    margin: 0 0 0.5em;
+}
+.br-right {
+    position: relative;
+}
+.text-left {
+    text-align: left !important;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both; 
+}

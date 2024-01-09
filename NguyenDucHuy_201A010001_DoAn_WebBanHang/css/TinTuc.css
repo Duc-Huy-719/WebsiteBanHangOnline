@@ -1,0 +1,222 @@
+.main_blog_area.blog_details {
+    padding: 20px 35px;
+}
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.blog_header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.blog_header span a {
+    color: #999;
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+    display: inline-block;
+    line-height: 16px;
+}
+a, button, input {
+    outline: medium none;
+    color: #686868;
+}
+.blog_header h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #00bba6;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.blog__post ul li {
+    display: inline-block;
+    color: #8c8c8c;
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 15px;
+    margin-right: 15px;
+    border-right: 1px solid #8c8c8c;
+    line-height: 15px;
+}
+.blog__post ul li:last-child {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/* ben phai*/
+.blog_details_right{
+    float: right;
+    display: block;
+    
+    position:relative;
+    bottom: 950px;
+    left:1020px;
+    
+    
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+}
+.owl-carousel .owl-stage {
+    position: relative;
+}
+.owl-carousel.owl-drag .owl-item {
+    -webkit-user-select: none;
+    user-select: none;
+}
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+}
+img {
+    max-width: 100%
+}
+.blog_thumb img {
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.blog_entry_content p {
+    color: #666666;
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.blog_entry_content p.blockquote {
+    color: #555;
+    font-size: 18px;
+    font-style: italic;
+    padding: 0 0 0 10px;
+    border-left: 5px solid #00bba6;
+    line-height: 26px;
+}
+.blog_entry_meta {
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 33px;
+}
+.blog_entry_meta ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #9999;
+}
+li {
+    list-style: none;
+}
+.wishlist-share {
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #ddd;
+    margin-bottom: 35px;
+}
+.wishlist-share ul li {
+    display: inline-block;
+}
+.wishlist-share ul li a {
+    padding: 0 10px;
+    color: #333;
+    display: block;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.wishlist-share ul li {
+    display: inline-block;
+}
+
+
+.offset-lg-0 {
+    margin-left: 0;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.blog_widget h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #222222;
+}
+.blog_widget.search_widget form {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+}
+.blog_widget.search_widget input {
+    background: none;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.blog_widget.search_widget button {
+    border: none;
+    background: #009483;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px 15px;
+    display: block;
+    border-radius: 5px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    width: 100%;
+}
+.blog_widget h3 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #222222;
+}
+.blog_widget.widget_categoie ul {
+    border: 1px solid #e5e5e5;
+    padding: 18px 15px;
+}
+.blog_widget.widget_categoie ul li {
+    margin-bottom: 10px;
+}
+.blog_widget.widget_categoie ul li a {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	position: relative;
+	padding: 0 20px;
+    text-transform: capitalize;
+}
+.blog_widget.widget_categoie ul li a::before {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #e5e5e5;
+    margin-right: 8px;
+    left: 0;
+    top: 6px;
+}

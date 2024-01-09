@@ -1,0 +1,130 @@
+.row-2 {
+
+    display: block;
+    
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.cartegory-top {
+    padding: 16px 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f7f8f9;
+}
+
+.cartegory-top p {
+    font-family: var(--main-text-font);
+    margin: 0 12px;
+    font-size: 12px;
+}
+
+/* left */
+.cartegory-left {
+    width: 20%;
+    float: left;
+}
+
+.cartegory-left ul li {
+    padding: 12px 0;
+}
+
+.cartegory-left ul li>a {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--main-text-font);
+
+}
+
+.cartegory-left ul li ul li {
+    padding-left: 10px;
+}
+.cartegory-left-li-ul{
+    display: none;
+}
+.cartegory-left-li.block ul{
+    display: none;
+}
+
+.cartegory-left ul li ul li>a {
+    color: #333333;
+    font-size: 14px;
+
+}
+
+/* right */
+.cartegory-right {
+    width: 80%;
+    float: left;
+}
+.cartegory-right-top{
+    box-sizing: border-box;
+    
+}
+.cartegory-right-top-item:first-child {
+
+    font-size: 16px;
+    font-family: var(--main-text-font);
+    font-weight: bold;
+}
+
+.cartegory-right-top-item-id2 {
+    display: inline-block;
+    position: absolute;
+    right: 190px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.cartegory-right-top-item-id3 {
+    display: inline-block;
+    
+    margin-left: 483px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+/* ----------------thumbnail------------------ */
+
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.capption>h2 {
+
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.thumbnail img {
+    height: 380px;
+    width: 100%;
+}
+
+.thumbnail1 {
+    padding: 10px;
+
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.thumbnail1 img {
+    height: 280px;
+}
+.cartegory-right-bottom{
+    justify-content: space-between;
+    margin: 30px 0 20px;
+    width: 100%;
+}
+.cartegory-right-bottom p{
+    font-family: var(--main-text-font);
+    font-size: 11px;
+}
